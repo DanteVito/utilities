@@ -16,7 +16,7 @@ if s:    # frame captured without any errors
 import qrtools
 # https://github.com/primetang/qrtools
 # http://stackoverflow.com/questions/27233351/how-to-decode-a-qr-code-image-in-preferably-pure-python
-qrCode = qrtools.QR()
+qr = qrtools.QR()
 qr.decode("imgQrcode.png")
 linkQrCode = qr.data 
 
